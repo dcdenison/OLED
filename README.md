@@ -18,6 +18,14 @@ Then, moving onto a multiplexer, Leo switched to U8g
 Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
 
 https://github.com/olikraus/u8g2/
+
+I think because he read this: 
+
+https://www.brainy-bits.com/i2c-multiplexer-tca9548a/
+
+And then he generated this code: 
+
+
  
 
 
