@@ -1,23 +1,23 @@
 # OLED
 
-Resources for OLED project: 
+This project started off as a way to learn about OLEDs. Then it kind of grew to include a multiplexer. 
 
-I started off with the adafruit libraries. 
+The saga included 5 (five) chapters: 
 
-https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout
+1. I got started with a bunch of motley OLEDs, from a variety of sources: mostly Chinese. 
 
-Got one running using the Adafruit library. 
+2. I started off using the adafruit libraries, and got one running. 
 
 File above: 
 ssd1306_128x32_i2c.ino
 
-Then tried to move uptown to using a multiplexer. 
+3. Then tried to move uptown to using a multiplexer, so I could control a bunch of OLEDs with just one Arduino. 
 
 I think the one that arrived was this one: 
 
 https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout
 
-Then, moving onto a multiplexer, Leo switched to U8g
+4. When Leo took a look at the project, he switched to U8g
 
 Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
 
@@ -31,11 +31,24 @@ And then he generated this code (above):
 
 brainybitssketch2.ino
  
-Got a few running. 
+We got a few running, and then got distracted. 
 
-Just for research, I got 1 running using the U8G library. I tried to get one going with the U8G*2* library, but wasn't able to get it going. 
+5. To get it restarted, I tried to get one running with the U8G libary. Got it working. 
 
-But here's the U8G library one (above): 
+I tried to get one going with the U8G*2* library, recommended by the creator (the new version 2) but wasn't able to get it going. 
+
+But here's the U8G library one (above), which works: 
 
 HelloWorld-OLED-u8g.ino
 
+NEXT STEPS: 
+
+1. See if we can add more workable OLEDs to the "brainy-bits" multiplexer. 
+
+2. Try out U8G version 2, to see if we can get that running. 
+
+3. Maybe compare the Adafruit library and the U8G library. 
+
+4. Sort out my motley collection of OLEDs. 
+
+Goal: Learn about OLEDs, and turn it into a workshop! 
