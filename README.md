@@ -2,7 +2,7 @@
 
 This project started off as a way to learn about OLEDs. Then it kind of grew to include a multiplexer. 
 
-The saga included 5 (five) chapters: 
+The saga included 6 chapters: 
 
 1. I got started with a bunch of motley OLEDs, from a variety of sources: mostly Chinese. 
 
@@ -40,6 +40,8 @@ I tried to get one going with the U8G*2* library, recommended by the creator (th
 But here's the U8G library one (above), which works: 
 
 HelloWorld-OLED-u8g.ino
+
+6. Leo updated and commented the brainybitssketch2. It is now LeoSketch3, above.
 
 NEXT STEPS: 
 
