@@ -55,14 +55,14 @@
 // U8g2 Contructor List (Frame Buffer)
 // The complete list is available here: https://github.com/olikraus/u8g2/wiki/u8g2setupcpp
 // Please update the pin numbers according to your setup. Use U8X8_PIN_NONE if the reset pin is not connected
-U8G2_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);
-//U8G2_SSD1306_128X64 First_Oled(U8G_I2C_OPT_FAST);  // Init of the OLED #1 using I2C
+// U8G2_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);
+// U8G2_SSD1306_128X64 First_Oled(U8G_I2C_OPT_FAST);  // Init of the OLED #1 using I2C
 //U8G2_NULL u8g2(U8G2_R0);	// null device, a 8x8 pixel display which does nothing
 //U8G2_SSD1306_128X64_NONAME_F_4W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
 //U8G2_SSD1306_128X64_NONAME_F_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 12, /* dc=*/ 4, /* reset=*/ 6);	// Arduboy (Production, Kickstarter Edition)
 //U8G2_SSD1306_128X64_NONAME_F_4W_HW_SPI u8g2(U8G2_R0, /* cs=*/ 10, /* dc=*/ 9, /* reset=*/ 8);
 //U8G2_SSD1306_128X64_NONAME_F_3W_SW_SPI u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* cs=*/ 10, /* reset=*/ 8);
-//U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
 //U8G2_SSD1306_128X64_ALT0_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);   // same as the NONAME variant, but may solve the "every 2nd line skipped" problem
 //U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ 13, /* data=*/ 11, /* reset=*/ 8);
 //U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SDA, /* reset=*/ U8X8_PIN_NONE);   // All Boards without Reset of the Display
@@ -265,8 +265,11 @@ void setup(void) {
 void loop(void) {
   u8g2.clearBuffer();					// clear the internal memory
   u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
-  u8g2.drawStr(0,10,"Hello World!");	// write something to the internal memory
+  u8g2.drawStr(0,10,"btw, if we figure this");	// write something to the internal memory
+  u8g2.drawStr(0,22,"out, how about a");  // write something to the internal memory
+  u8g2.drawStr(0,34,"workshop?");  // write something to the internal memory
+   u8g2.drawStr(0,46,"Interested? Talk");  // write something to the internal memory
+  u8g2.drawStr(0,58,"to DC, Leo, or Julia");  // write something to the internal memory
   u8g2.sendBuffer();					// transfer internal memory to the display
   delay(1000);  
 }
-
