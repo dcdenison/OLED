@@ -41,16 +41,33 @@ But here's the U8G library one (above), which works:
 
 HelloWorld-OLED-u8g.ino
 
-6. Leo updated and commented the brainybitssketch2. It is now LeoSketch3, above.
+6. Got the U8G2 library working! 
+
+HelloWorld-u8g2.ino
+
+7. Leo updated and commented the brainybitssketch2. It is now LeoSketch3, above.
+
+Now LeoSketch4
+
+8. Started working with the Adafruit "Example" sketch. Making it loop, commenting things out. Got six of them. 
+
+SS1306_128x64_12C_v6.ino
+
+9. Along the way, came across to excellent OLED tutorials. 
+
+lastminuteengineers-oled.ino
+randomnerdtutorial-oled.ino
+
+10. And starting investigating whether scrolling is possible. 
+
+InfoTicker1.ino
+scrollingtest-u8g.ino
+
+11. Also ordered a new Adafruit multiplexer. So I can compare the u8g multiplexer code, and the Adafruit multiplexer code. 
 
 NEXT STEPS: 
-
-1. See if we can add more workable OLEDs to the "brainy-bits" multiplexer. 
-
-2. Try out U8G version 2, to see if we can get that running. 
-
-3. Maybe compare the Adafruit library and the U8G library. 
-
-4. Sort out my motley collection of OLEDs. 
-
-Goal: Learn about OLEDs, and turn it into a workshop! 
+1. Create more OLED sketches and hardware
+2. Add new OLEDs to existing multiplexer
+3. Try out Adafruit multiplexer
+4. Add eInk module
+5. Evaluate the collection of old, green and black displays
