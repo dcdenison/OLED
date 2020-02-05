@@ -2,7 +2,7 @@
 
 
 ![Image of Yaktocat]
-(pixelimage.jpg)
+(/pixelimage.jpg)
 
 This project started off as a way to learn about OLEDs. Then it kind of grew to include a multiplexer. 
 
