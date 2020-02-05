@@ -2,7 +2,7 @@
 
 
 ![Image of Yaktocat]
-(https://github.com/dcdenison/OLED/blob/master/pixelimage.jpg)
+(/OLED/blob/master/pixelimage.jpg)
 
 This project started off as a way to learn about OLEDs. Then it kind of grew to include a multiplexer. 
 
