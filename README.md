@@ -2,7 +2,7 @@
 
 
 ![Image of Yaktocat]
-(https://mixedrealityreport.net/sites/default/files/inline-images/pixelimage.jpg)
+(/pixelimage.jpg)
 
 This project started off as a way to learn about OLEDs. Then it kind of grew to include a multiplexer. 
 
