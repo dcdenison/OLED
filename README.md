@@ -1,18 +1,18 @@
 # OLED
 
-Format: ![Alt Text](url)
-
 ![Oleds](/pixelimage.jpg)
 
 This project started off as a way to learn about OLEDs. Then it kind of grew to include a multiplexer. 
 
 The saga included 6 chapters: 
 
+#Start
+
 1. I got started with a bunch of motley OLEDs, from a variety of sources: mostly Chinese. 
 
 2. I started off using the adafruit libraries, and got one running. 
 
-File above: 
+Here's the [link](ssd1306_128x32_i2c.ino)
 ssd1306_128x32_i2c.ino
 
 3. Then tried to move uptown to using a multiplexer, so I could control a bunch of OLEDs with just one Arduino. 
