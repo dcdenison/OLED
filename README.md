@@ -6,7 +6,7 @@ This project started off as a way to learn about OLEDs. Then it kind of grew to 
 
 The saga included 6 chapters: 
 
-#Start
+# Start
 
 1. I got started with a bunch of motley OLEDs, from a variety of sources: mostly Chinese. 
 
