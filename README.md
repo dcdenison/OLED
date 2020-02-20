@@ -19,6 +19,9 @@ I think the one that arrived was this one:
 
 https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout
 
+Here's the [link](ssd1306_128x32_i2c.ino)
+ssd1306_128x32_i2c.ino
+
 * When Leo McLarty, at Fab@CIC, took a look at the project, he switched to U8g
 
 Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
