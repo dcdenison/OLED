@@ -28,7 +28,7 @@ Here's the [this code](LeoSketch6.ino)
 
 [Universal 8bit Graphics Library](https://github.com/olikraus/u8g2/)
 
-https://github.com/olikraus/u8g2/
+
 
 I think because an early Google search on the topic turned up [this:](https://www.brainy-bits.com/i2c-multiplexer-tca9548a/)
 
