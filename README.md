@@ -24,48 +24,40 @@ Here's the [link](https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multip
 
 * When Leo McLarty, at Fab@CIC, took a look at the project, he switched to U8g
 
-Here's the [link](ssd1306_128x32_i2c.ino)
+Here's the [this code](LeoSketch6.ino)
 
-Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
+[Universal 8bit Graphics Library](https://github.com/olikraus/u8g2/)
 
 https://github.com/olikraus/u8g2/
 
-I think because an early Google search on the topic turned up this: 
+I think because an early Google search on the topic turned up [this:](https://www.brainy-bits.com/i2c-multiplexer-tca9548a/)
 
-https://www.brainy-bits.com/i2c-multiplexer-tca9548a/
 
-And then he generated this code (above): 
 
-brainybitssketch2.ino
+And then he generated [this code](LeoSketch6.ino) 
+
  
 We got a few running, and then got distracted. 
 
-* Leo updated and commented Now LeoSketch6
 
 * To get it restarted, I tried to get one going with the U8G*2* library, recommended by the creator (the new version 2). I hate working with early, or neglected, versions of software. It's always a good feeling when you know people are still improving it, squashing bugs.  
+Here's a [simple sketch](HelloWorld-u8g2.ino)
 
-HelloWorld-u8g2.ino
+* Started working with the Adafruit "Example" sketch. Making it loop, commenting things out. Making it loop.  
 
-* Started working with the Adafruit "Example" sketch. Making it loop, commenting things out. Got six of them. 
-
-Here's the [link](ssd1306_128x32_i2c.ino)
-
-SS1306_128x64_12C_v6.ino
+Here's [what](SS1306_128x64_12C_v6.ino) I got running. 
 
 * Along the way, came across two excellent OLED tutorials. 
 
-Here's the [link](ssd1306_128x32_i2c.ino)
-Here's the [link](ssd1306_128x32_i2c.ino)
-
-lastminuteengineers-oled.ino
-randomnerdtutorial-oled.ino
+Here's the [link](lastminuteengineers-oled.ino)
+Here's the [link](randomnerdtutorial-oled.ino)
 
 * And starting investigating whether scrolling is possible. 
 
 InfoTicker1.ino
-Here's the [link](ssd1306_128x32_i2c.ino)
+Here's the [link](InfoTicker1.ino)
 scrollingtest-u8g.ino
-Here's the [link](ssd1306_128x32_i2c.ino)
+Here's the [link](scrollingtest-u8g.ino)
 
 
 
