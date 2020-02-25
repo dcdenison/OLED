@@ -50,10 +50,10 @@ Here's [what](SS1306_128x64_12C_v6.ino) I got running.
 * Along the way, came across two excellent OLED tutorials. 
 
 One from [Last Minute Engineers](https://lastminuteengineers.com/oled-display-arduino-tutorial/)
-Here's the [code](lastminuteengineers-oled.ino)
+Here's the [code](/tutorials/lastminuteengineers-oled.ino)
 
 And one from [Random Nerd Tutorials](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
-Here's the [link](randomnerdtutorial-oled.ino)
+Here's the [link](/tutorials/randomnerdtutorial-oled.ino)
 
 * And starting investigating whether scrolling is possible. 
 
