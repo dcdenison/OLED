@@ -44,7 +44,7 @@ Here's the [code](/tutorials/randomnerdtutorial-oled.ino)
 
 # Next
 
--[ ] 1. Start investigating whether scrolling is possible. 
+- [ ] 1. Start investigating whether scrolling is possible. 
 
 InfoTicker1.ino
 Here's the [link](InfoTicker1.ino)
