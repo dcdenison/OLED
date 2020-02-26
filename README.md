@@ -1,6 +1,6 @@
 ![Oleds](128x64blue&yellow.jpg)
 
-This project started off as a way to learn about one OLEDs. Then they started multiplying. 
+This project started off as a way to learn about a few OLEDs. Then they started multiplying. 
 
 The saga included the following chapters: 
 
@@ -30,7 +30,7 @@ Here's my [simple sketch](HelloWorld-u8g2.ino)
 
 I also started working with the Adafruit "Example" sketch: Making it loop, commenting on things.  
 
-Here's [what](SS1306_128x64_12C_v6.ino) I got running. 
+- [x]    Here's [what](SS1306_128x64_12C_v6.ino) I got running. 
 
 Along the way, came across two excellent OLED tutorials: 
 
@@ -44,7 +44,7 @@ Here's the [code](/tutorials/randomnerdtutorial-oled.ino)
 
 # Next
 
-1. Start investigating whether scrolling is possible. 
+-[ ] 1. Start investigating whether scrolling is possible. 
 
 InfoTicker1.ino
 Here's the [link](InfoTicker1.ino)
